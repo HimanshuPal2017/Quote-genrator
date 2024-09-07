@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="quoto-box">
+        <h2>Quote of the day</h2>
+        <div id="para">
+          <blockquote id="quote">Loading....</blockquote>
+          <p id="author">Loading...</p>
+        </div>
+
+        <div class="button">
+          <button id="first" onclick="getQuote(api_url)">New Quote</button>
+          <button id="second-btn"><img id="img" src="./images/dh.jpeg" width="20px" /> Twitter</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
